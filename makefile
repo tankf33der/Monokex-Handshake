@@ -1,5 +1,5 @@
 CC=clang -std=gnu99
-CFLAGS= -pedantic -Wall -Wextra -O3 -march=native -g
+CFLAGS=-pedantic -Wall -Wextra -O3 -march=native -g
 
 .PHONY: all library static-library dynamic-library \
         check test vectors speed \

@@ -168,6 +168,7 @@ static void session(handshake_ctx *client_ctx,
 
 }
 
+
 static void compare(handshake_ctx *client_ctx,
                     handshake_ctx *server_ctx,
                     const u8 client_key[32],
